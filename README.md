@@ -1,6 +1,6 @@
 # final-project
 
-Ruler of Catan
+# Ruler of Catan
 
 Predict each players' probability of winning based on their initial placements.
 Use Catan game data of initial placements and the game winner to train a model based on:
