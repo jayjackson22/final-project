@@ -2,7 +2,7 @@
 
 <strong>Objective:</strong> Predict each players' probability of winning based on their initial placements.
 
-<p><strong>Considerations</strong></p>
+<p><strong>Considerations:</strong></p>
 <ul>
 	<li>Number of points scored vs inital placements</li>
 	<li>Initial placement of the person with >=10 points (winner)</li>
@@ -12,7 +12,7 @@
 	</ul>
 </ul>
 		
-<p><strong>Data Sources</strong>
+<p><strong>Data Sources:</strong>
 <ul>
 	<li><a href="https://www.kaggle.com/lumins/settlers-of-catan-games">Catan Game Data</a></li>
 	<li>Additional data gathered by project members</li>
