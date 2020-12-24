@@ -22,11 +22,18 @@
 </p>
 	
 
-Libraries: 
-	- Scikit-Learning
-Other:
-	- HTML/CSS/Bootstrap
-	- JavaScript D3.js
-	- Mongo or PostgreSQL
-	- Amazon AWS
-	- Python Pandas
+<p><strong>Libraries:</strong>
+	<ul>
+		<li>Scikit-Learning</li>
+	</ul>
+</p>
+<p><strong>Other:</strong>
+	<ul>
+		<li>HTML/CSS/Bootstrap</li>
+		<li>JavaScript D3.js</li>
+		<li>Mongo or PostgreSQL</li>
+		<li>Amazon AWS</li>
+		<li>Python Pandas</li>
+	</ul>
+</p>
+		
