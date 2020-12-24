@@ -9,8 +9,11 @@ Use Catan game data of initial placements and the game winner to train a model b
 		- Numbers (probability of number rolled, diversity)
 		
 Data Sources
-	- https://www.kaggle.com/lumins/settlers-of-catan-games
-	- Additional data gathered by project members
+<ul>
+	<li><a href="https://www.kaggle.com/lumins/settlers-of-catan-games">Catan Game Data</a></li>
+	<li>Additional data gathered by project members</li>
+</ul>
+	
 
 Libraries: 
 	- Scikit-Learning
