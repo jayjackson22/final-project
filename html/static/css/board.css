@@ -7,7 +7,7 @@
 
 .board>div {
     line-height:1.5em;
-    margin-bottom:-1px;
+    /* margin-bottom:-1px; */
 }
 
 .board>div:nth-child(even)>div:first-child {
@@ -21,6 +21,7 @@
 .board .water, .board .water:before, .board .water:after {
     background:#3399cc;
     border-color:#66bbee;
+    z-index: 1000;
 }
 
 .board .lumber {
@@ -40,7 +41,8 @@
 }
 
 .board>div>div, .board>div>div:before, .board>div>div:after {
-    border:3px solid #ddcc66;
+    /* border:2px solid #ddcc66; */
+    border:2px solid #fff;
     z-index:-1;
     padding:3px;
 }
@@ -55,6 +57,18 @@
     width:1.5em;
     border-radius:1em;
     display:inline-block;
+}
+
+.water>.ng-binding {
+    background: #3399cc;
+    font-size: 0.5em;
+    position: relative;
+    top: -0.375em;
+    line-height: 1.5em;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 0em!important;
+    display: inline-block;
 }
 
 .board>div>div {
