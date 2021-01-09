@@ -1,0 +1,109 @@
+.board {
+    font-size:24pt;
+    margin-top:1em;
+    z-index: 1000;
+    padding-bottom: 5%;
+}
+
+.board>div {
+    line-height:1.5em;
+    margin-bottom:-1px;
+}
+
+.board>div:nth-child(even)>div:first-child {
+    margin-left:0.866em;
+}
+
+.board .spacer {
+    visibility:hidden;
+}
+
+.board .water, .board .water:before, .board .water:after {
+    background:#3399cc;
+    border-color:#66bbee;
+}
+
+.board .lumber {
+    background:#227722;
+}
+.board .wheat {
+    background:#eecc33;
+}
+.board .ore {
+    background:#999999;
+}
+.board .sheep {
+    background:#66ee55;
+}
+.board .clay {
+    background:#cc3333;
+}
+
+.board>div>div, .board>div>div:before, .board>div>div:after {
+    border:3px solid #ddcc66;
+    z-index:-1;
+    padding:3px;
+}
+
+.board>div>div>* {
+    background:white;
+    font-size:0.5em;
+    position:relative;
+    top:-0.375em;
+    line-height:1.5em;
+    height:1.5em;
+    width:1.5em;
+    border-radius:1em;
+    display:inline-block;
+}
+
+.board>div>div {
+    display:inline-block;
+    background:#00ff00;
+    position:relative;
+    width:1.732em;
+    height:1em;
+    line-height:1em;
+    text-align:center;
+    border-top:none;
+    border-bottom:none;
+    box-sizing:border-box;
+    padding:0;
+}
+
+.board>div>div:before, .board>div>div:after {
+    content:"";
+    background:inherit;
+    display:inline-block;
+    position:absolute;
+    width:1em;
+    height:1em;
+    left:50%;
+    margin-left:-0.5em;
+    box-sizing:border-box;
+    transform-origin:center center;
+    transform:matrix(0.866,0.5,-0.866,0.5,0,0);
+    background-clip:content-box;
+}
+
+.board>div>div:before {
+    top:0;
+    margin-top:-0.5em;
+    border-right:none;
+    border-bottom:none;
+    padding-top:0;
+    padding-left:0;
+    padding-right:-2px;
+    padding-bottom:-2px;
+}
+
+.board>div>div:after {
+    bottom:0;
+    margin-bottom:-0.5em;
+    border-top:none;
+    border-left:none;
+    padding-right:0;
+    padding-bottom:0;
+    padding-top:-2px;
+    padding-left:-2px;
+}

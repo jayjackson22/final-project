@@ -1,0 +1,116 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #717070;
+    font-size: 16px;
+}
+
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    font-size: 16px
+}
+
+.lm-2 {
+    margin-left: 2%;
+}
+
+.lm-5 {
+    margin-left: 5%;
+}
+
+.tb-nm {
+    margin-top: -3px;
+    margin-bottom: -3px;
+}
+
+.tb-m {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.t-m {
+    margin-top: -1.5%;
+}
+
+/* https://fossheim.io/writing/posts/css-text-gradient/ */
+.gradient-text {
+    background-color: #e7c128;
+    background-image: linear-gradient(0deg, #e7c128, #ffffff);
+    background-size: 20%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000c7;
+    -webkit-text-stroke-width: thin;
+}
+
+.gradient-text2 {
+    background-color: #f7c600;
+    background-image: linear-gradient(0deg, #f7c600, #ffffff);
+    background-size: 20%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000c7;
+    text-shadow: 0px 0px 3px #ffffff3d;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e0e0e0;
+    height: 90%;
+    padding-top: 1%;
+    box-shadow: -1px 3px 7px 2px #00000026;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.bg-primary {
+    background-color: #751d11!important;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0rem 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: uppercase;
+    box-shadow: 3px 0px 12px 1px #39393940;
+    /* box-shadow: 3px 0px 12px 1px #393939ab; */
+}
+
+.navbar-brand {
+    margin-right: 2rem;
+    font-family: 'PT Serif', serif!important;
+    font-size: 2.75rem;
+}
+
+.navbar-collapse {
+    margin-bottom: -.3rem;
+}
+
+@media (min-width: 992px) {
+.col {
+    float: left;
+    }
+}
