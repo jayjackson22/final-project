@@ -2,6 +2,7 @@
     font-size:24pt;
     margin-top:1em;
     z-index: 1000;
+    padding-bottom: 5%;
   }
   
   .board>div {

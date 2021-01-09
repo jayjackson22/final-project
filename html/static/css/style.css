@@ -120,7 +120,7 @@ h4 {
     margin-right: auto;
     margin-left: auto;
     background-color: #e0e0e0;
-    height: 700px;
+    /* height: 700px; */
     padding-top: 1%;
     box-shadow: -1px 3px 7px 2px #00000026;
     border-bottom-left-radius: 8px;
