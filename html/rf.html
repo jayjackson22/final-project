@@ -34,27 +34,33 @@
         <!--------------------------------->        
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <a class="navbar-brand gradient-text2" href="index.html">CATAN MACHINE LEARNING</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                <a class="nav-link" href="elastic.html">ElasticNet</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="lasso.html">Lasso</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="linear.html">Linear Regression</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="rf.html">Random Forest</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="lasso.html">Lasso</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="elastic.html">ElasticNet</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="rf.html">Random Forest</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="linear.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Regression Models
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="linear.html#linear">Linear Regression</a></li>
+                      <li><a class="dropdown-item" href="linear.html#multiple">Multiple Regression</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
 
         <!------------------------------>
         <!----------BODY CODE----------->
