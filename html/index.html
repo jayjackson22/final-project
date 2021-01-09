@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="lasso.html">Lasso</a>
+                    <a class="nav-link" href="lasso.html">Lasso</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="elastic.html">ElasticNet</a>
@@ -75,8 +75,19 @@
             In this popular board game players build settlements, cities, and roads to connect them as they settle the island. The game board, which represents the island, is composed of hexagonal tiles of different land types which are laid out randomly at the beginning of each game. Newer editions of the game began to depict a fixed layout in their manual and recommend this to be used by beginners. In 2016, editions of the game were released with a conventional fixed layout board in this configuration, the hexes of which cannot be rearranged.
             <br><br>
             Here we explore if a winner can be predicted by initial settlement placement or if there are other factors which play a more significant role in winning.
-            <br><div class="row justify-content-center mt-1">
+            <br>
+            <div class="row justify-content-center mt-1">
             <!-- <img src="static/images/board.jpg" style="border-radius: 5px;box-shadow: -1px 1px 4px #00000059;"> -->
+            <div class="float-left mt-5">
+                <br style="margin-left: -2rem;"><b><u>Legend:</u></b><br>
+                <ul>
+                <li class="c-li">C = Clay</li>
+                <li class="c-li">L = Lumber</li>
+                <li class="c-li">O = Ore</li>
+                <li class="c-li">S = Sheep</li>
+                <li class="c-li">W = Wheat</li>
+                </ul>
+            </div>
             <div class='board' ng-app='catan' ng-controller='Board as b'>
                 <div ng-repeat='r in b.board'>
                   <div ng-repeat='c in r' ng-attr-class='{{ c.class }}'><span>{{ c.letter }}</span></div>
