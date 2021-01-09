@@ -148,14 +148,14 @@ h4 {
     padding: 0rem 0rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: .5rem;
+    /* padding-top: .5rem; */
     text-transform: uppercase;
     box-shadow: 3px 0px 12px 1px #393939ab;
 }
 
 .navbar-brand {
     margin-right: 2rem;
-    margin-bottom: -.5rem;
+    /* margin-bottom: -.5rem; */
     font-family: 'PT Serif', serif!important;
     font-size: 2.75rem;
 }
