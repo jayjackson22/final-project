@@ -3,48 +3,49 @@
     margin-top:1em;
     z-index: 1000;
     padding-bottom: 5%;
-  }
-  
-  .board>div {
+}
+
+.board>div {
     line-height:1.5em;
     margin-bottom:-1px;
-  }
-  
-  .board>div:nth-child(even)>div:first-child {
+}
+
+.board>div:nth-child(even)>div:first-child {
     margin-left:0.866em;
-  }
-  
-  
-  .board .spacer {
+}
+
+.board .spacer {
     visibility:hidden;
-  }
-  .board .water, .board .water:before, .board .water:after {
+}
+
+.board .water, .board .water:before, .board .water:after {
     background:#3399cc;
     border-color:#66bbee;
-  }
-  .board .lumber {
+}
+
+.board .lumber {
     background:#227722;
-  }
-  .board .wheat {
+}
+.board .wheat {
     background:#eecc33;
-  }
-  .board .ore {
+}
+.board .ore {
     background:#999999;
-  }
-  .board .sheep {
+}
+.board .sheep {
     background:#66ee55;
-  }
-  .board .brick {
+}
+.board .clay {
     background:#cc3333;
-  }
-  
-  .board>div>div, .board>div>div:before, .board>div>div:after {
+}
+
+.board>div>div, .board>div>div:before, .board>div>div:after {
     border:3px solid #ddcc66;
     z-index:-1;
     padding:3px;
-  }
-  
-  .board>div>div>* {
+}
+
+.board>div>div>* {
     background:white;
     font-size:0.5em;
     position:relative;
@@ -54,9 +55,9 @@
     width:1.5em;
     border-radius:1em;
     display:inline-block;
-  }
-  
-  .board>div>div {
+}
+
+.board>div>div {
     display:inline-block;
     background:#00ff00;
     position:relative;
@@ -68,9 +69,9 @@
     border-bottom:none;
     box-sizing:border-box;
     padding:0;
-  }
-  
-  .board>div>div:before, .board>div>div:after {
+}
+
+.board>div>div:before, .board>div>div:after {
     content:"";
     background:inherit;
     display:inline-block;
@@ -83,9 +84,9 @@
     transform-origin:center center;
     transform:matrix(0.866,0.5,-0.866,0.5,0,0);
     background-clip:content-box;
-  }
-  
-  .board>div>div:before {
+}
+
+.board>div>div:before {
     top:0;
     margin-top:-0.5em;
     border-right:none;
@@ -94,9 +95,9 @@
     padding-left:0;
     padding-right:-2px;
     padding-bottom:-2px;
-  }
-  
-  .board>div>div:after {
+}
+
+.board>div>div:after {
     bottom:0;
     margin-bottom:-0.5em;
     border-top:none;
@@ -105,4 +106,4 @@
     padding-bottom:0;
     padding-top:-2px;
     padding-left:-2px;
-  }
+}

@@ -7,16 +7,16 @@ var terrainLetters2Classes = {
     'W': 'wheat',
     'O': 'ore',
     'S': 'sheep',
-    'B': 'brick',
+    'C': 'clay',
 }
 
 var exampleboard = [
     '~~    ',
     '~ LWO ',
-    '~ SBLW ',
-    ' OSBWL ',
-    '~ BOSL ',
-    '~ WBL ',
+    '~ SCLW ',
+    ' OSCWL ',
+    '~ COSL ',
+    '~ WCL ',
     '~~    ',
 ];
 
