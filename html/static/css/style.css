@@ -43,6 +43,12 @@ h4 {
     margin-left: -1rem;
 }
 
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+    margin-right: -20rem;
+    margin-left: 15rem;
+}
+
 /* https://fossheim.io/writing/posts/css-text-gradient/ */
 .gradient-text {
     background-color: #e7c128;

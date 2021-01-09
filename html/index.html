@@ -76,7 +76,6 @@
             <br><br>
             Here we explore if a winner can be predicted by initial settlement placement or if there are other factors which play a more significant role in winning.
             <br>
-            <div class="row justify-content-center mt-1">
             <!-- <img src="static/images/board.jpg" style="border-radius: 5px;box-shadow: -1px 1px 4px #00000059;"> -->
             <div class="float-left mt-5">
                 <br style="margin-left: -2rem;"><b><u>Legend:</u></b><br>
@@ -88,6 +87,7 @@
                 <li class="c-li">W = Wheat</li>
                 </ul>
             </div>
+            <div class="row justify-content-center mt-1">
             <div class='board' ng-app='catan' ng-controller='Board as b'>
                 <div ng-repeat='r in b.board'>
                   <div ng-repeat='c in r' ng-attr-class='{{ c.class }}'><span>{{ c.letter }}</span></div>
