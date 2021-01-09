@@ -38,56 +38,6 @@ h4 {
     margin-top: -1.5%;
 }
 
-.panel-primary>.panel-heading {
-    color: #fff;
-    background-color: #2b2929;
-    border-color: #2b2929;
-}
-
-.panel-primary {
-    border-color: #2b2929;
-}
-
-.panel {
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 0px solid;
-    border-color: #2b2929;
-    border-radius: 6px;
-    box-shadow: -2px 2px 8px 0px #c7c7c7;
-}
-
-.panel-heading {
-    padding: 10px 15px;
-    border-bottom: 1px solid;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-color: #2b2929!important;
-}
-
-.jumbotron-bg {
-    color: #fff!important;
-    background-color: #000000d9!important;
-}
-
-.c-col {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-}
-
-
-.jumbotron {
-    padding-top: 15px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    margin-top: -2rem;
-    color: inherit;
-    background-color: #eee;
-}
-
 /* https://fossheim.io/writing/posts/css-text-gradient/ */
 .gradient-text {
     background-color: #e7c128;
@@ -120,7 +70,7 @@ h4 {
     margin-right: auto;
     margin-left: auto;
     background-color: #e0e0e0;
-    /* height: 700px; */
+    height: 90%;
     padding-top: 1%;
     box-shadow: -1px 3px 7px 2px #00000026;
     border-bottom-left-radius: 8px;
@@ -145,7 +95,8 @@ h4 {
     padding-left: 1rem;
     padding-right: 1rem;
     text-transform: uppercase;
-    box-shadow: 3px 0px 12px 1px #393939ab;
+    box-shadow: 3px 0px 12px 1px #39393940;
+    /* box-shadow: 3px 0px 12px 1px #393939ab; */
 }
 
 .navbar-brand {

@@ -1,8 +1,8 @@
 // https://codepen.io/pottersson/pen/rusvC
 
 var terrainLetters2Classes = {
-    ' ': 'spacer',
-    '~': 'water',
+    '~': 'spacer',
+    ' ': 'water',
     'L': 'lumber',
     'W': 'wheat',
     'O': 'ore',
@@ -11,13 +11,13 @@ var terrainLetters2Classes = {
 }
 
 var exampleboard = [
-    '  ~~~~',
-    ' ~LWO~',
-    ' ~SBLW~',
-    '~OSBWL~',
-    ' ~BOSL~',
-    ' ~WBL~',
-    '  ~~~~',
+    '~~    ',
+    '~ LWO ',
+    '~ SBLW ',
+    ' OSBWL ',
+    '~ BOSL ',
+    '~ WBL ',
+    '~~    ',
 ];
 
 angular.module('catan', []).controller('Board', function Board() {
