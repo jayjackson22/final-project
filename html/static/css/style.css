@@ -74,6 +74,30 @@ h4 {
     text-shadow: 0px 0px 3px #ffffff3d;
 }
 
+/* .gradient-text2 {
+    background-image: linear-gradient(#ffcc00d9 20%, #f7c600 50%, #e8bb07 25%, #efc20dbf 75%, #f3c407f2 75%, #ece7e773 85%, #f1ead88c 80%);
+    background-color: #f7c600;
+    background-size: 100px 45px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000c7;
+    -webkit-text-stroke-width: thin;
+} */
+
+/* .gradient-text2 {
+    background-image: linear-gradient(#ffcc00d9 20%, #f7c600 50%, #e8bb07 25%, #e0bd31bf 75%, #decb7ff2 75%, #ece7e773 85%, #f1ead88c 80%);
+    background-color: #f7c600;
+    background-size: 100px 45px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000c7;
+    -webkit-text-stroke-width: thin;
+} */
+
 .container {
     width: 100%;
     padding-right: 15px;
