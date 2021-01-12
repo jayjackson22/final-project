@@ -63,8 +63,8 @@ html {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    -webkit-text-stroke-color: #000000c7;
-    -webkit-text-stroke-width: thin;
+    /* -webkit-text-stroke-color: #000000c7;
+    -webkit-text-stroke-width: thin; */
 }
 
 .gradient-text {
