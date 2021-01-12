@@ -38,6 +38,11 @@ html {
     margin-top: -1.5%;
 }
 
+.gif-style {
+    border-radius: 8px;
+    box-shadow: 0px 3px 7px 3px #0000000d;
+}
+
 .c-li {
     display: list-item;
     margin-left: -1rem;
