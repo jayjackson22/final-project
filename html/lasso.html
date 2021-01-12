@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Catan Machine Learning: Model 1</title>
+        <title>Catan Machine Learning: Lasso</title>
 
         <!--------------------------------->
         <!--------REQUIRED META TAGS------->
@@ -34,39 +34,32 @@
         <!--------NAVIGATION BAR----------->
         <!--------------------------------->        
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a class="navbar-brand gradient-text2" href="index.html">CATAN MACHINE LEARNING</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="lasso.html">Lasso</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="elastic.html">ElasticNet</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="rf.html">Random Forest</a>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="linear.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Regression Models
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="linear.html#linear">Linear Regression</a></li>
-                  <li><a class="dropdown-item" href="linear.html#multiple">Multiple Regression</a></li>
-                  </ul>
-              </li>
-              </ul>
-          </div>
-          </div>
-      </nav>
+            <a class="navbar-brand gradient-text2" href="index.html">CATAN MACHINE LEARNING</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="lasso.html">Lasso</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="elastic.html">ElasticNet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rf.html">Random Forest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="limitations.html">Limitations</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
 
         <!------------------------------>
         <!----------BODY CODE----------->
         <!------------------------------>
-        <!-- <div id="bar" class="float-right col-md-7 mt-4 mr-3"></div> -->
         <div class="container"><img src="static/images/residual.png" class="float-right">
             Using various data points as the target for Lasso we saw a low r score with higher mean squared error scores:
             <ul>
