@@ -61,19 +61,16 @@
         <!----------BODY CODE----------->
         <!------------------------------>
         <!-- <div id="bar" class="float-right col-md-7 mt-4 mr-3"></div> -->
-        <div class="container"><img src="static/images/residual.png" class="float-right">
-            LASSO, Least Absolute Shrinkage and Selector Operation, works by reducing the number of predictors in a regression model.
+        <div class="container"><div class="row justify-content-center"><img src="static/images/lasso.gif"></div><br>
+            <div class="text-wrap pt-3">LASSO, Least Absolute Shrinkage and Selector Operation, works by reducing the number of predictors in a regression model.
             It identifies important predictors and selects among redundant predictors. This has the potential to produce lower predictive errors.
-            
-                        we saw a low r score with higher mean squared error scores:
+            we saw a low r score with higher mean squared error scores. Narrowing our outcome data down to two variables, win (1) or lose (0), resulted in better prediction but still unreliable:</div><br>
+            <div class="row pl-5">
             <ul>
-            <li>Using points resulted in an MSE score of 1.2689524281583031 and R score of -0.4768558958438742.</li>
-            <li>Narrowing our outcome data down to two variables, win (1) or lose (0), resulted in better prediction but still unreliable. 
-                
+            <li>Using points resulted in an MSE score of 1.2689524281583031 and R score of -0.4768558958438742.</li>    
             <li>Using 'win' resulted in an MSE score of 1.5358816596894118 and R score of -0.3083436360317213.</li>
-            </ul>
+            </ul></div>
         </div>
-              
 
     <!--------------------->
     <!---JAVASCRIPT CODE--->
