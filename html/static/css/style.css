@@ -12,8 +12,8 @@ html {
     margin: 0;
 }
 
-h4 {
-    font-size: 16px
+.mr-5 {
+    margin-right: 5rem!important;
 }
 
 .lm-2 {
