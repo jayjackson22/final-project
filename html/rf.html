@@ -60,12 +60,15 @@
         <!------------------------------>
         <!----------BODY CODE----------->
         <!------------------------------>
-        <div class="container"><img src="static/images/residual.png" class="float-right">
-            Using various data points as the target for random forest we saw higher accuracy:
+        <!-- <div id="bar" class="float-right col-md-7 mt-4 mr-3"></div> -->
+        <div class="container">
+            Random Forest performs both regression and classification tasks by using multiple decision trees.
+                It involves training each decision tree on a different data sample. Our sampling is done using replacement.
+                Basically multiple decision trees are combined for a final output:
             <ul>
-            <li>Using 'win' resulted in an R score of 1 with different data points having more weight than others.</li>
-            <li>Using points resulted in RESULTS</li>
-            </ul>
+            <li>Using 'win' resulted in an R score of 1 with different data points having more weight than others.</li>   
+            <li>Using points resulted in R score of 0.4852941176470588.</li>
+            </ul><img src="static/images/RF Output.png">
         </div>
               
 
